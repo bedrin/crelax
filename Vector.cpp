@@ -1,0 +1,24 @@
+// Vector.cpp: implementation of the Vector class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "LatticeRelaxation.h"
+#include "Vector.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+/*
+Vector::Vector(const Vector& v) 
+{ 
+	x = v.x; 
+	y = v.y; 
+	z = v.z; 
+}*/

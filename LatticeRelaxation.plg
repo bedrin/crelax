@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LatticeRelaxation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSPB32F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/LatticeRelaxation.pdb" /debug /machine:I386 /out:"Debug/LatticeRelaxation.exe" /pdbtype:sept 
+.\Debug\Atom.obj
+.\Debug\AtomDialog.obj
+.\Debug\AtomPair.obj
+.\Debug\AtomType.obj
+.\Debug\AtomTypesDialog.obj
+.\Debug\ColorStatic.obj
+.\Debug\Direct3DView.obj
+.\Debug\Lattice.obj
+.\Debug\LatticeBuilder.obj
+.\Debug\LatticeElement.obj
+.\Debug\LatticeRelaxation.obj
+.\Debug\LatticeRelaxationD3DView.obj
+.\Debug\LatticeRelaxationDoc.obj
+.\Debug\LatticeRelaxationTableView.obj
+.\Debug\MainFrm.obj
+.\Debug\MigrateAtomDialog.obj
+.\Debug\MigrationResults.obj
+.\Debug\MigrationResultsDialog.obj
+.\Debug\MigrationStepResults.obj
+.\Debug\Modeling.obj
+.\Debug\ModelingOptions.obj
+.\Debug\ModelingOptionsDialog.obj
+.\Debug\ModelingProject.obj
+.\Debug\NewLatticeDialog.obj
+.\Debug\Potential.obj
+.\Debug\PotentialBuilder.obj
+.\Debug\PotentialDialog.obj
+.\Debug\Relaxation.obj
+.\Debug\RelaxationResults.obj
+.\Debug\RelaxCorLatticeBuilder.obj
+.\Debug\RelaxPtPotentialBuilder.obj
+.\Debug\StdAfx.obj
+.\Debug\TableSetFunction.obj
+.\Debug\Vacancy.obj
+.\Debug\Vector.obj
+.\Debug\LatticeRelaxation.res
+]
+Creating command line "link.exe @C:\Users\800280\AppData\Local\Temp\RSPB32F.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+LatticeRelaxation.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
