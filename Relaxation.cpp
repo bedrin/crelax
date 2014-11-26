@@ -477,7 +477,7 @@ double Relaxation::calculatePotentialEnergyPerAtom(Atom* atomI)
 			Potential* pot = getPotential(atomI->atomType,atomJ->atomType);
 			f += pot->electronicDensityDistribution(r);
 		}
-		atomPotEnergy += atomI->atomType->embeddingEnergy(f) * 160.219;
+		atomPotEnergy += atomI->atomType->embeddingEnergy(f) * 160.219; // 1 ev = 1.602176565(35)×10−19 J
 	}
 
 	return atomPotEnergy;
