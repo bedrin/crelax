@@ -6,7 +6,53 @@
 --------------------Configuration: LatticeRelaxation - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSPB32F.tmp" with contents
+Creating command line "rc.exe /l 0x409 /fo"Debug/LatticeRelaxation.res" /d "_DEBUG" /d "_AFXDLL" "C:\work\github\crelax\LatticeRelaxation.rc"" 
+Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E36.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/LatticeRelaxation.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\work\github\crelax\Atom.cpp"
+"C:\work\github\crelax\AtomDialog.cpp"
+"C:\work\github\crelax\AtomPair.cpp"
+"C:\work\github\crelax\AtomType.cpp"
+"C:\work\github\crelax\AtomTypesDialog.cpp"
+"C:\work\github\crelax\ColorStatic.cpp"
+"C:\work\github\crelax\Direct3DView.cpp"
+"C:\work\github\crelax\Lattice.cpp"
+"C:\work\github\crelax\LatticeBuilder.cpp"
+"C:\work\github\crelax\LatticeElement.cpp"
+"C:\work\github\crelax\LatticeRelaxation.cpp"
+"C:\work\github\crelax\LatticeRelaxationD3DView.cpp"
+"C:\work\github\crelax\LatticeRelaxationDoc.cpp"
+"C:\work\github\crelax\LatticeRelaxationTableView.cpp"
+"C:\work\github\crelax\MainFrm.cpp"
+"C:\work\github\crelax\MigrateAtomDialog.cpp"
+"C:\work\github\crelax\MigrationResults.cpp"
+"C:\work\github\crelax\MigrationResultsDialog.cpp"
+"C:\work\github\crelax\MigrationStepResults.cpp"
+"C:\work\github\crelax\Modeling.cpp"
+"C:\work\github\crelax\ModelingOptions.cpp"
+"C:\work\github\crelax\ModelingOptionsDialog.cpp"
+"C:\work\github\crelax\ModelingProject.cpp"
+"C:\work\github\crelax\NewLatticeDialog.cpp"
+"C:\work\github\crelax\Potential.cpp"
+"C:\work\github\crelax\PotentialBuilder.cpp"
+"C:\work\github\crelax\PotentialDialog.cpp"
+"C:\work\github\crelax\Relaxation.cpp"
+"C:\work\github\crelax\RelaxationResults.cpp"
+"C:\work\github\crelax\RelaxCorLatticeBuilder.cpp"
+"C:\work\github\crelax\RelaxPtPotentialBuilder.cpp"
+"C:\work\github\crelax\TableSetFunction.cpp"
+"C:\work\github\crelax\Vacancy.cpp"
+"C:\work\github\crelax\Vector.cpp"
+]
+Creating command line "cl.exe @C:\Users\800280\AppData\Local\Temp\RSP8E36.tmp" 
+Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E37.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/LatticeRelaxation.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\work\github\crelax\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\800280\AppData\Local\Temp\RSP8E37.tmp" 
+Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E38.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LatticeRelaxation.pdb" /debug /machine:I386 /out:"Debug/LatticeRelaxation.exe" /pdbtype:sept 
 .\Debug\Atom.obj
@@ -46,14 +92,103 @@ Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSPB32F.tmp" with co
 .\Debug\Vector.obj
 .\Debug\LatticeRelaxation.res
 ]
-Creating command line "link.exe @C:\Users\800280\AppData\Local\Temp\RSPB32F.tmp"
+Creating command line "link.exe @C:\Users\800280\AppData\Local\Temp\RSP8E38.tmp"
 <h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Atom.cpp
+AtomDialog.cpp
+AtomPair.cpp
+AtomType.cpp
+AtomTypesDialog.cpp
+ColorStatic.cpp
+Direct3DView.cpp
+C:\work\github\crelax\Direct3DView.cpp(89) : warning C4101: 'e' : unreferenced local variable
+Lattice.cpp
+LatticeBuilder.cpp
+LatticeElement.cpp
+LatticeRelaxation.cpp
+LatticeRelaxationD3DView.cpp
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(38) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(40) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(43) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(46) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(46) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(47) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(49) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(49) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(50) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(52) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(52) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(53) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(53) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(53) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(55) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(56) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(56) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(58) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(58) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(59) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(61) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(61) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(62) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(64) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(64) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(64) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(65) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(65) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(67) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(67) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(67) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(68) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(68) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(70) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(70) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(71) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(89) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(89) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(680) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\work\github\crelax\LatticeRelaxationD3DView.cpp(681) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+LatticeRelaxationDoc.cpp
+C:\work\github\crelax\LatticeRelaxationDoc.cpp(315) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\work\github\crelax\LatticeRelaxationDoc.cpp(316) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\work\github\crelax\LatticeRelaxationDoc.cpp(352) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\work\github\crelax\LatticeRelaxationDoc.cpp(353) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\work\github\crelax\LatticeRelaxationDoc.cpp(356) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+LatticeRelaxationTableView.cpp
+C:\work\github\crelax\LatticeRelaxationTableView.cpp(322) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\work\github\crelax\LatticeRelaxationTableView.cpp(323) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MainFrm.cpp
+MigrateAtomDialog.cpp
+MigrationResults.cpp
+MigrationResultsDialog.cpp
+MigrationStepResults.cpp
+Modeling.cpp
+Generating Code...
+Compiling...
+ModelingOptions.cpp
+ModelingOptionsDialog.cpp
+ModelingProject.cpp
+NewLatticeDialog.cpp
+Potential.cpp
+PotentialBuilder.cpp
+PotentialDialog.cpp
+Relaxation.cpp
+RelaxationResults.cpp
+RelaxCorLatticeBuilder.cpp
+RelaxPtPotentialBuilder.cpp
+TableSetFunction.cpp
+Vacancy.cpp
+Vector.cpp
+Generating Code...
 Linking...
 
 
 
 <h3>Results</h3>
-LatticeRelaxation.exe - 0 error(s), 0 warning(s)
+LatticeRelaxation.exe - 0 error(s), 48 warning(s)
 </pre>
 </body>
 </html>

@@ -9,7 +9,7 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
-#include <D3DX8.h>
+#include "d3d8/D3DX8.h"
 
 class Direct3DView  
 {
