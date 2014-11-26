@@ -32,16 +32,16 @@ Class12=MigrateAtomDialog
 Resource7=IDD_NEW_LATTICE_DIALOG
 Class13=MigrationResultsDialog
 Resource8=IDD_POTENTIAL_DIALOG
-Resource9=IDD_ABOUTBOX (English (U.S.))
-Resource10=IDR_MAINFRAME (English (U.S.))
-Resource11=IDD_POTENTIAL_DIALOG (English (U.S.))
-Resource12=IDD_MIGRATION_RESULTS_DIALOG (English (U.S.))
-Resource13=IDD_ATOMTYPES_DIALOG (English (U.S.))
-Resource14=IDD_MODELING_OPTIONS_DIALOG (English (U.S.))
-Resource15=IDD_MIGRATE_ATOM_DIALOG (English (U.S.))
+Resource9=IDD_MIGRATE_ATOM_DIALOG (English (U.S.))
+Resource10=IDD_MODELING_OPTIONS_DIALOG (English (U.S.))
+Resource11=IDD_ABOUTBOX (English (U.S.))
+Resource12=IDD_POTENTIAL_DIALOG (English (U.S.))
+Resource13=IDD_MIGRATION_RESULTS_DIALOG (English (U.S.))
+Resource14=IDD_ATOMTYPES_DIALOG (English (U.S.))
+Resource15=IDD_ATOM_DIALOG (English (U.S.))
 Resource16=IDD_MODELING_OPTIONS_DIALOG
 Class14=CNewLatticeDialog
-Resource17=IDD_ATOM_DIALOG (English (U.S.))
+Resource17=IDR_MAINFRAME (English (U.S.))
 Resource18=IDD_NEW_LATTICE_DIALOG (English (U.K.))
 
 [CLS:CLatticeRelaxationApp]
