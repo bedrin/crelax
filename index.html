@@ -32,10 +32,54 @@
 
         <section id="main_content">
           <h1>
-<a id="crelax" class="anchor" href="#crelax" aria-hidden="true"><span class="octicon octicon-link"></span></a>crelax</h1>
+<a id="crelax" class="anchor" href="#crelax" aria-hidden="true"><span class="octicon octicon-link"></span></a>CRelax</h1>
 
-<p><a href="https://bintray.com/bedrin/github/crelax/_latestVersion"> <img src="https://api.bintray.com/packages/bedrin/github/crelax/images/download.svg" alt="Download"> </a>
-Modelling defects in crystal lattices</p>
+<p><a href="https://bintray.com/bedrin/github/crelax/_latestVersion"> <img src="https://api.bintray.com/packages/bedrin/github/crelax/images/download.svg" alt="Download"> </a></p>
+
+<p>Modelling point defects in crystal BCC and FCC lattices using pair-wise potentials or embedded atom model</p>
+
+<h1>
+<a id="installing" class="anchor" href="#installing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing</h1>
+
+<ul>
+<li><a href="https://github.com/bedrin/crelax/releases/download/1.0.0/LatticeRelaxation.exe">LatticeRelaxation.exe</a></li>
+<li><a href="https://github.com/bedrin/crelax/releases/download/1.0.0/potentials.zip">potentials.zip</a></li>
+</ul>
+
+<p>CRelax is a single <code>LatticeRelaxation.exe</code> file - just download it from <a href="https://github.com/bedrin/crelax/releases/download/1.0.0/LatticeRelaxation.exe">github</a> or <a href="https://bintray.com/artifact/download/bedrin/github/LatticeRelaxation.exe">bintray</a> official mirror and execute.
+It is tested on Windows XP and Windows 7, but should work on Vista and 8. Both 32-bit and 64-bit systems are supported</p>
+
+<p>You can also download some sample potentials data - there're Johnson pair-wise potential for FeFe and also embedded atom potentials for FeFe and FeP lattices. An archive <code>potentials.zip</code> is also availabl both on <a href="https://github.com/bedrin/crelax/releases/download/1.0.0/potentials.zip">github</a> and <a href="https://bintray.com/artifact/download/bedrin/github/potentials.zip">bintray</a> official mirror</p>
+
+<h1>
+<a id="usage-vacancy-in-α-fe-johnson-potential" class="anchor" href="#usage-vacancy-in-%CE%B1-fe-johnson-potential" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage: vacancy in α-Fe (Johnson potential)</h1>
+
+<p>Let's calculate the relaxation energy after introducing a vacancy in BCC iron using pair-wise potential</p>
+
+<p>Start CRelax and generate a BCC lattice. Default settings will work:</p>
+
+<p><img src="https://bedrin.github.io/crelax/images/generatelattice.png" alt="Generate Lattice" title="Generate Lattice"></p>
+
+<p>Select one atom - it will be highlighted with green; you can see the coordinate (in lattice parameters) in the right bottom corner. Let us select atom (0.5, 0.5, 0.5):</p>
+
+<p><img src="https://bedrin.github.io/crelax/images/selectedatom.png" alt="Selected Atom" title="Selected Atom"></p>
+
+<p>Click on (X) icon in toolbar and remove the atom. This is how vacancies are introduced.</p>
+
+<p>Now open potentials dialog using main menu item <code>Potentials/Select Potential</code>
+And select Johnson potential <code>jFeFe.pt</code> for Fe-Fe pair:</p>
+
+<p><img src="https://bedrin.github.io/crelax/images/pairpotential.png" alt="Pair Potential" title="Pair Potential"></p>
+
+<p>Click on play icon in Toolbar - observer the atoms are moving until the reach the equilibrium positions.
+Once simulation is finished, you'll see a results dialog:</p>
+
+<p><img src="https://bedrin.github.io/crelax/images/relaxationresult.png" alt="Relaxation Result" title="Relaxation Result"></p>
+
+<p>You can use your mouse to rotate the lattice, press ALT+Mouse and PageUp/PageDown to move the "camera"
+Now you can see that atoms have shifted after relaxation of the lattice with a vacancy:</p>
+
+<p><img src="https://bedrin.github.io/crelax/images/relaxedvacancy.png" alt="Relaxed Lattice With Vacancy" title="Relaxed Lattice With Vacancy"></p>
         </section>
 
         <footer>
