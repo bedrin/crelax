@@ -1,6 +1,7 @@
 CRelax
 ======
 [ ![Download](https://api.bintray.com/packages/bedrin/github/crelax/images/download.svg) ](https://bintray.com/bedrin/github/crelax/_latestVersion)
+[![Build status](https://ci.appveyor.com/api/projects/status/h3ri075w1s5pn55r?svg=true)](https://ci.appveyor.com/project/bedrin/crelax)
 
 Modelling point defects in crystal BCC and FCC lattices using pair-wise potentials or embedded atom model
 
