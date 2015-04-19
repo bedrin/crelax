@@ -32,16 +32,16 @@ Class12=MigrateAtomDialog
 Resource7=IDD_NEW_LATTICE_DIALOG
 Class13=MigrationResultsDialog
 Resource8=IDD_POTENTIAL_DIALOG
-Resource9=IDD_POTENTIAL_DIALOG (English (U.S.))
-Resource10=IDD_ATOM_DIALOG (English (U.S.))
-Resource11=IDD_MIGRATION_RESULTS_DIALOG (English (U.S.))
-Resource12=IDD_ATOMTYPES_DIALOG (English (U.S.))
-Resource13=IDD_MODELING_OPTIONS_DIALOG (English (U.S.))
-Resource14=IDR_MAINFRAME (English (U.S.))
-Resource15=IDD_ABOUTBOX (English (U.S.))
+Resource9=IDD_MIGRATE_ATOM_DIALOG (English (U.S.))
+Resource10=IDR_MAINFRAME (English (U.S.))
+Resource11=IDD_ATOM_DIALOG (English (U.S.))
+Resource12=IDD_POTENTIAL_DIALOG (English (U.S.))
+Resource13=IDD_ABOUTBOX (English (U.S.))
+Resource14=IDD_ATOMTYPES_DIALOG (English (U.S.))
+Resource15=IDD_MODELING_OPTIONS_DIALOG (English (U.S.))
 Resource16=IDD_MODELING_OPTIONS_DIALOG
 Class14=CNewLatticeDialog
-Resource17=IDD_MIGRATE_ATOM_DIALOG (English (U.S.))
+Resource17=IDD_MIGRATION_RESULTS_DIALOG (English (U.S.))
 Resource18=IDD_NEW_LATTICE_DIALOG (English (U.K.))
 
 [CLS:CLatticeRelaxationApp]
@@ -351,11 +351,12 @@ LastObject=ID_3DVIEW
 [DLG:IDD_ABOUTBOX (English (U.S.))]
 Type=1
 Class=CAboutDlg
-ControlCount=4
+ControlCount=5
 Control1=IDC_STATIC,static,1350565891
 Control2=IDC_STATIC,static,1342308480
 Control3=IDC_STATIC,static,1342308352
 Control4=IDOK,button,1342373889
+Control5=IDC_STATIC,static,1342308352
 
 [DLG:IDD_ATOM_DIALOG (English (U.S.))]
 Type=1
