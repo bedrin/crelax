@@ -3,13 +3,13 @@
 <pre>
 <h1>Build Log</h1>
 <h3>
---------------------Configuration: LatticeRelaxation - Win32 Debug--------------------
+--------------------Configuration: LatticeRelaxation - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x409 /fo"Debug/LatticeRelaxation.res" /d "_DEBUG" /d "_AFXDLL" "C:\work\github\crelax\LatticeRelaxation.rc"" 
-Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E36.tmp" with contents
+Creating command line "rc.exe /l 0x409 /fo"Release/LatticeRelaxation.res" /d "NDEBUG" /d "_AFXDLL" "C:\work\github\crelax\LatticeRelaxation.rc"" 
+Creating temporary file "C:\Users\bedrin\AppData\Local\Temp\RSPD00.tmp" with contents
 [
-/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/LatticeRelaxation.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/LatticeRelaxation.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
 "C:\work\github\crelax\Atom.cpp"
 "C:\work\github\crelax\AtomDialog.cpp"
 "C:\work\github\crelax\AtomPair.cpp"
@@ -45,54 +45,54 @@ Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E36.tmp" with co
 "C:\work\github\crelax\Vacancy.cpp"
 "C:\work\github\crelax\Vector.cpp"
 ]
-Creating command line "cl.exe @C:\Users\800280\AppData\Local\Temp\RSP8E36.tmp" 
-Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E37.tmp" with contents
+Creating command line "cl.exe @C:\Users\bedrin\AppData\Local\Temp\RSPD00.tmp" 
+Creating temporary file "C:\Users\bedrin\AppData\Local\Temp\RSPD01.tmp" with contents
 [
-/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/LatticeRelaxation.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/LatticeRelaxation.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
 "C:\work\github\crelax\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\Users\800280\AppData\Local\Temp\RSP8E37.tmp" 
-Creating temporary file "C:\Users\800280\AppData\Local\Temp\RSP8E38.tmp" with contents
+Creating command line "cl.exe @C:\Users\bedrin\AppData\Local\Temp\RSPD01.tmp" 
+Creating temporary file "C:\Users\bedrin\AppData\Local\Temp\RSPD02.tmp" with contents
 [
-/nologo /subsystem:windows /incremental:yes /pdb:"Debug/LatticeRelaxation.pdb" /debug /machine:I386 /out:"Debug/LatticeRelaxation.exe" /pdbtype:sept 
-.\Debug\Atom.obj
-.\Debug\AtomDialog.obj
-.\Debug\AtomPair.obj
-.\Debug\AtomType.obj
-.\Debug\AtomTypesDialog.obj
-.\Debug\ColorStatic.obj
-.\Debug\Direct3DView.obj
-.\Debug\Lattice.obj
-.\Debug\LatticeBuilder.obj
-.\Debug\LatticeElement.obj
-.\Debug\LatticeRelaxation.obj
-.\Debug\LatticeRelaxationD3DView.obj
-.\Debug\LatticeRelaxationDoc.obj
-.\Debug\LatticeRelaxationTableView.obj
-.\Debug\MainFrm.obj
-.\Debug\MigrateAtomDialog.obj
-.\Debug\MigrationResults.obj
-.\Debug\MigrationResultsDialog.obj
-.\Debug\MigrationStepResults.obj
-.\Debug\Modeling.obj
-.\Debug\ModelingOptions.obj
-.\Debug\ModelingOptionsDialog.obj
-.\Debug\ModelingProject.obj
-.\Debug\NewLatticeDialog.obj
-.\Debug\Potential.obj
-.\Debug\PotentialBuilder.obj
-.\Debug\PotentialDialog.obj
-.\Debug\Relaxation.obj
-.\Debug\RelaxationResults.obj
-.\Debug\RelaxCorLatticeBuilder.obj
-.\Debug\RelaxPtPotentialBuilder.obj
-.\Debug\StdAfx.obj
-.\Debug\TableSetFunction.obj
-.\Debug\Vacancy.obj
-.\Debug\Vector.obj
-.\Debug\LatticeRelaxation.res
+/nologo /subsystem:windows /incremental:no /pdb:"Release/LatticeRelaxation.pdb" /machine:I386 /out:"Release/LatticeRelaxation.exe" 
+.\Release\Atom.obj
+.\Release\AtomDialog.obj
+.\Release\AtomPair.obj
+.\Release\AtomType.obj
+.\Release\AtomTypesDialog.obj
+.\Release\ColorStatic.obj
+.\Release\Direct3DView.obj
+.\Release\Lattice.obj
+.\Release\LatticeBuilder.obj
+.\Release\LatticeElement.obj
+.\Release\LatticeRelaxation.obj
+.\Release\LatticeRelaxationD3DView.obj
+.\Release\LatticeRelaxationDoc.obj
+.\Release\LatticeRelaxationTableView.obj
+.\Release\MainFrm.obj
+.\Release\MigrateAtomDialog.obj
+.\Release\MigrationResults.obj
+.\Release\MigrationResultsDialog.obj
+.\Release\MigrationStepResults.obj
+.\Release\Modeling.obj
+.\Release\ModelingOptions.obj
+.\Release\ModelingOptionsDialog.obj
+.\Release\ModelingProject.obj
+.\Release\NewLatticeDialog.obj
+.\Release\Potential.obj
+.\Release\PotentialBuilder.obj
+.\Release\PotentialDialog.obj
+.\Release\Relaxation.obj
+.\Release\RelaxationResults.obj
+.\Release\RelaxCorLatticeBuilder.obj
+.\Release\RelaxPtPotentialBuilder.obj
+.\Release\StdAfx.obj
+.\Release\TableSetFunction.obj
+.\Release\Vacancy.obj
+.\Release\Vector.obj
+.\Release\LatticeRelaxation.res
 ]
-Creating command line "link.exe @C:\Users\800280\AppData\Local\Temp\RSP8E38.tmp"
+Creating command line "link.exe @C:\Users\bedrin\AppData\Local\Temp\RSPD02.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...
