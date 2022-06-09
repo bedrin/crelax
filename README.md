@@ -44,3 +44,7 @@ You can use your mouse to rotate the lattice, press ALT+Mouse and PageUp/PageDow
 Now you can see that atoms have shifted after relaxation of the lattice with a vacancy:
 
 ![Relaxed Lattice With Vacancy](https://bedrin.github.io/crelax/images/relaxedvacancy.png "Relaxed Lattice With Vacancy")
+
+Literature
+======
+- [Разработка компьютерной программы для моделирования точечных дефектов в металлических сплавах с использованием метода погруженного атома](https://gigabaza.ru/doc/63090-pall.html)
